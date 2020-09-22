@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 /*
 Colors Used (update colors!!!!!!)
 Text Color (dark gray): #2b2b2b
@@ -27,7 +28,7 @@ Yantramanav (bold 700 or black 900) - for header text?
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 1200px;
   margin: 10px auto;
 }
@@ -43,14 +44,14 @@ Yantramanav (bold 700 or black 900) - for header text?
 
 .page-header__item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 200px;
-  flex: 0 1 200px;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   text-align: right;
 }
 
@@ -199,7 +200,7 @@ button:focus {
 
 .profile__portrait--about {
   float: left;
-  width: 300px;
+  width: 320px;
   height: auto;
   margin-right: 40px;
   border-radius: 50%;
@@ -209,6 +210,14 @@ button:focus {
   max-width: 1000px;
   margin: 25px auto;
   text-align: left;
+}
+
+.landmark-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 #contact-form {
@@ -240,11 +249,11 @@ button:focus {
 
 .grid__item:last-child {
   -ms-grid-column: 3;
-  grid-column-start: 3;
+      grid-column-start: 3;
   -ms-grid-column-span: 0;
   grid-column-end: 3;
   -ms-grid-row: 1;
-  grid-row-start: 1;
+      grid-row-start: 1;
   -ms-grid-row-span: 2;
   grid-row-end: 3;
 }
@@ -264,8 +273,8 @@ button:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media all and (max-width: 500px) {
@@ -304,117 +313,117 @@ button:focus {
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(600px, 0);
-    transform: translate(600px, 0);
+            transform: translate(600px, 0);
   }
 }
 
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(600px, 0);
-    transform: translate(600px, 0);
+            transform: translate(600px, 0);
   }
 }
 
 .cloud-left {
   -webkit-animation: 20s cloud-move infinite alternate linear;
-  animation: 20s cloud-move infinite alternate linear;
+          animation: 20s cloud-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-2 {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(400px, 0);
-    transform: translate(400px, 0);
+            transform: translate(400px, 0);
   }
 }
 
 @keyframes cloud-move-2 {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(400px, 0);
-    transform: translate(400px, 0);
+            transform: translate(400px, 0);
   }
 }
 
 .cloud-middle {
   -webkit-animation: 25s cloud-move-2 infinite alternate linear;
-  animation: 25s cloud-move-2 infinite alternate linear;
+          animation: 25s cloud-move-2 infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-3 {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(700px, 0);
-    transform: translate(700px, 0);
+            transform: translate(700px, 0);
   }
 }
 
 @keyframes cloud-move-3 {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(700px, 0);
-    transform: translate(700px, 0);
+            transform: translate(700px, 0);
   }
 }
 
 .cloud-right {
   -webkit-animation: 35s cloud-move-3 infinite alternate linear;
-  animation: 35s cloud-move-3 infinite alternate linear;
+          animation: 35s cloud-move-3 infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(-400px, 0);
-    transform: translate(-400px, 0);
+            transform: translate(-400px, 0);
   }
 }
 
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   to {
     -webkit-transform: translate(-400px, 0);
-    transform: translate(-400px, 0);
+            transform: translate(-400px, 0);
   }
 }
 
 .cloud-farright {
   -webkit-animation: 25s cloud-move-reverse infinite alternate linear;
-  animation: 25s cloud-move-reverse infinite alternate linear;
+          animation: 25s cloud-move-reverse infinite alternate linear;
 }
 
 @-webkit-keyframes color-change {
@@ -447,5 +456,5 @@ button:focus {
 
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
-  animation: 4s color-change infinite alternate linear;
+          animation: 4s color-change infinite alternate linear;
 }

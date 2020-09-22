@@ -160,6 +160,12 @@ button:focus,
   text-align: left;
 }
 
+.landmark-image {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 #contact-form {
   display: grid;
   grid-template-columns: 1fr;
